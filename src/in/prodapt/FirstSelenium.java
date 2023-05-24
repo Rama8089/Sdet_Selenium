@@ -15,7 +15,9 @@ public class FirstSelenium {
 		driver.navigate().to("http://www.google.com");
 		// print the title of webpage
 		System.out.println(driver.getTitle());
-
+		
+		// making changes on bug 202
+		String name = "prodapt";
 		// print the current url of webpage
 		System.out.println(driver.getCurrentUrl());
 		System.out.println("Thank you");
