@@ -7,6 +7,11 @@ public class FirstSelenium {
 
 	public static void main(String[] args) {
 		
+		// making changes on bug_001
+		int i = 10;
+		int j = 20;
+		int k = 30;
+
 		System.setProperty("webdriver.chrome.driver", "D:\\Drivers\\Chrome\\chromedriver_win32 (2)\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 
