@@ -29,5 +29,10 @@ public class FirstSelenium {
 		// close the driver execution complete
 		driver.close();
 
+
+
+		public void changesMade(){
+		System.out.println("This is changes Made statement");
+		}
 	}
 }
